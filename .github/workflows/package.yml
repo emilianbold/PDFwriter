@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build
-      run: cd sources && buildscript.sh
+      run: cd sources && ./buildscript.sh
       
     - name: Archive production artifacts
       uses: actions/upload-artifact@v1
