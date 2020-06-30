@@ -17,7 +17,7 @@ jobs:
       run: cd sources && buildscript.sh
       
     - name: Archive production artifacts
-        uses: actions/upload-artifact@v1
-        with:
-          name: RWTS-PDFwriter.pkg
-          path: sources/RWTS-PDFwriter.pkg
+      uses: actions/upload-artifact@v1
+      with:
+        name: RWTS-PDFwriter.pkg
+        path: sources/RWTS-PDFwriter.pkg
