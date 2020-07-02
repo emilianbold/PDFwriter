@@ -27,6 +27,8 @@ Download the installer package by clicking on the printer icon above and install
 
 Simply print your documents using **PDFwriter** as your printer. 
 
+![Print to PDFwriter](print-to-pdfprinter.png)
+
 The “printed” PDF files produced will be stored in the directory 
 
 `   /Users/Shared/PDFwriter/<your user name>   `
