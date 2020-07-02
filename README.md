@@ -1,10 +1,9 @@
 # Export difficult PDFs with this macOS printer driver
 
-**RWTS PDFwriter** in an macOS compatible print driver that enables you to “print” your documents directly to a PDF file.
+This in an macOS compatible print driver that enables you to “print” your documents directly to a PDF file.
 
 [![](https://raw.githubusercontent.com/rodyager/RWTS-PDFwriter/master/sources/PDFwriter.iconset/icon_256x256.png "Click to download installer pkg")
 Click to download the installer pkg](https://github.com/emilianbold/RWTS-PDFwriter/releases/tag/v1.0.2)
-
 
 
 # Have you ever seen this in Preview?
@@ -15,7 +14,7 @@ Click to download the installer pkg](https://github.com/emilianbold/RWTS-PDFwrit
 
 > You can upgrade to the latest version of Adobe Reader for Windows®, Mac, or Linux® by visiting
 
-This happens for PDF containing XFA Forms which only Adobe Reader can read and print.
+This happens for PDFs containing XFA Forms which only Adobe Reader can read and print.
 
 If you want to **export** such a PDF into a normal PDF that even Preview can open then install this printer driver and get Adobe Reader to print to it. That's all there is.
 
@@ -32,6 +31,8 @@ Simply print your documents using **PDFwriter** as your printer.
 The “printed” PDF files produced will be stored in the directory 
 
 `   /Users/Shared/PDFwriter/<your user name>   `
+
+![PDFwriter folder](shared-folder.png)
 
 For convenient access to this folder, simply drag it to the right hand end of your dock.
 
