@@ -3,7 +3,7 @@
 This in an macOS compatible print driver that enables you to “print” your documents directly to a PDF file.
 
 [![](https://raw.githubusercontent.com/rodyager/RWTS-PDFwriter/master/sources/PDFwriter.iconset/icon_256x256.png "Click to download installer pkg")
-Click to download the installer pkg](https://github.com/emilianbold/RWTS-PDFwriter/releases/tag/v1.0.2)
+Click to download the installer pkg](https://github.com/emilianbold/RWTS-PDFwriter/releases/download/v1.0.2/RWTS-PDFwriter.pkg)
 
 
 # Have you ever seen this in Preview?
