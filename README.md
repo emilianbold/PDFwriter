@@ -1,13 +1,24 @@
-#RWTS PDFwriter
-&copy; 2016 Rodney I. Yager
+# Export difficult PDFs with this macOS printer driver
 
-An OSX print to pdf-file printer driver
+**RWTS PDFwriter** in an macOS compatible print driver that enables you to “print” your documents directly to a PDF file.
 
-###[![](https://raw.githubusercontent.com/rodyager/RWTS-PDFwriter/master/sources/PDFwriter.iconset/icon_256x256.png "Click to download installer pkg") Click to download the installer pkg](https://github.com/emilianbold/RWTS-PDFwriter/releases/tag/v1.0.2)
+[![](https://raw.githubusercontent.com/rodyager/RWTS-PDFwriter/master/sources/PDFwriter.iconset/icon_256x256.png "Click to download installer pkg")
+Click to download the installer pkg](https://github.com/emilianbold/RWTS-PDFwriter/releases/tag/v1.0.2)
 
 
-##About RWTS PDFwriter
-**RWTS PDFwriter** in an OSX 10.11 compatible print driver that enables you to “print” your documents directly to a pdf file. It has similar functionality to [CutePDF](http://www.cutepdf.com) on Windows.
+
+# Have you ever seen this in Preview?
+
+> Please wait...
+
+> If this message is not eventually replaced by the proper contents of the document, your PDF viewer may not be able to display this type of document.
+
+> You can upgrade to the latest version of Adobe Reader for Windows®, Mac, or Linux® by visiting
+
+This happens for PDF containing XFA Forms which only Adobe Reader can read and print.
+
+If you want to **export** such a PDF into a normal PDF that even Preview can open then install this printer driver and get Adobe Reader to print to it. That's all there is.
+
 
 ## Installation and Usage Instructions
 Download the installer package by clicking on the printer icon above and install as usual. After installation, your new printer will be ready for use.
@@ -29,16 +40,3 @@ If you want to uninstall **PDFwriter**, open Terminal.app, type
 
 and press Return. You will be asked for your admin password. After hitting Return, **PDFwriter** will be entirely removed from your system. 
 
-## Compiling from sources
-In the event that you want to compile your own copy, you can clone this repository.  The product installer can then be compiled by executing the script
-
-`   sources/buildscript.sh   `
-
-If you have a DeveloperID, a signed product can be compiled by running 
-
-`   sources/buildscript.sh -s "<Your DeveloperID>"   `
-
-As this project is released under GNU GPL License Version 2, you are welcome to make modifications and improvement and incorporate it in your own software, provided you also release your software under the same licensing system. Read the [License](https://raw.githubusercontent.com/rodyager/RWTS-PDFwriter/master/License) for full details.
-
-## History and acknowlegements
-RWTS PDFwriter is closely based on [Lisanet PDFWriter](http://sourceforge.net/projects/pdfwriterformac) by Simone Karin Lehmann. Lisanet PDFwriter was, in turn, based on [CUPS-PDF](http://www.cups-pdf.de).
